@@ -37,9 +37,9 @@ int main(){
 	//koniec
 	w = br - ur; //obliczenie wieku
 	//sekcja okreslajaca czy biezacy rok wliczamy do wyniku
-	if (bd<ud && bm<um){
-		w = --w;
-	}
+	if ((bd<ud && bm<=um) || (bd>ud && bm<um)) {
+		w = w-1;
+	} 
 	//koniec
 	cout<<"Twoj wiek to "<<w<<" lat!"; //wyswietlenie wyniku
 	

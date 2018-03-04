@@ -41,7 +41,7 @@ int main(){
 		w = --w;
 	}
 	//koniec
-	cout<<"Twoj wiek to "<<w<<" !"; //wyswietlenie wyniku
+	cout<<"Twoj wiek to "<<w<<" lat!"; //wyswietlenie wyniku
 	
 	
 	
